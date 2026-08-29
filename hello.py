@@ -1,9 +1,9 @@
 def greet(name):
-    return f"Hello, {name}"
-
+    return "Hello, " + name
+ 
+ 
 def farewell(name):
-    return f"Goodbye, {name}"
-
+    return "Goodbye, " + name
+ 
 print(greet("World"))
 print(farewell("World"))
-
